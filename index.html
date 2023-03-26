@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./2048.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>2048</h1>
+        <hr>
+        <h2>Score: <span id="score">0</span></h2>
+        <section id="board"></section>
+
+        <section class="controls">
+            <div class="control">
+                <div class="control-icon">
+                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                        <path d="M5.146 6.146l-.353.354.707.707.354-.353-.708-.708zM7.5 4.5l.354-.354-.354-.353-.354.353.354.354zm1.646 2.354l.354.353.707-.707-.353-.354-.708.708zm-3.292 0l2-2-.708-.708-2 2 .708.708zm1.292-2l2 2 .708-.708-2-2-.708.708zM7 4.5V11h1V4.5H7z"
+                              fill="currentColor"></path>
+                    </svg>
+                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                        <path d="M9.854 8.854l.353-.354-.707-.707-.354.353.708.708zM7.5 10.5l-.354.354.354.353.354-.353L7.5 10.5zM5.854 8.146L5.5 7.793l-.707.707.353.354.708-.708zm3.292 0l-2 2 .708.708 2-2-.708-.708zm-1.292 2l-2-2-.708.708 2 2 .708-.708zM8 10.5V4H7v6.5h1z"
+                              fill="currentColor"></path>
+                    </svg>
+                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                        <path d="M8.146 9.146l-.353.354.707.707.354-.353-.708-.708zM10.5 7.5l.354.354.353-.354-.353-.354-.354.354zM8.854 5.146L8.5 4.793l-.707.707.353.354.708-.708zm0 4.708l2-2-.708-.708-2 2 .708.708zm2-2.708l-2-2-.708.708 2 2 .708-.708zM10.5 7H4v1h6.5V7z"
+                              fill="currentColor"></path>
+                    </svg>
+                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                        <path d="M6.146 9.854l.354.353.707-.707-.353-.354-.708.708zM4.5 7.5l-.354-.354-.353.354.353.354L4.5 7.5zm2.354-1.646l.353-.354-.707-.707-.354.353.708.708zm0 3.292l-2-2-.708.708 2 2 .708-.708zm-2-1.292l2-2-.708-.708-2 2 .708.708zM4.5 8H11V7H4.5v1z"
+                              fill="currentColor"></path>
+                    </svg>
+                </div>
+                <span>move tiles</span>
+            </div>
+
+            <div class="control">
+                <div class="control-icon">
+                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="15" height="15"><path d="M11 11.5H4m7-3h-1m-2 0H7m-2 0H4m7-2h-1m-2 0H7m-2 0H4m3.5-2V0m6 4.5h-12a1 1 0 00-1 1v7a1 1 0 001 1h12a1 1 0 001-1v-7a1 1 0 00-1-1z" stroke="currentColor"></path></svg>
+                    <span>space</span>
+                </div>
+                <span>reset game</span>
+            </div>
+
+        </section>
+    </main>
+</body>
+
+</html>
